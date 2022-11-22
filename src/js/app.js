@@ -13,7 +13,7 @@ gsap.to('#bg', {
 }, {ease: Expo.easeInOut})
 
 gsap.to('#man', {
-    scrollTrigger: {
+    scrollTrigger: { 
         scrub: 1
     },
     scale: 0.5,
