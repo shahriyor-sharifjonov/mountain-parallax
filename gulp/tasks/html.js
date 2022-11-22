@@ -14,7 +14,7 @@ export const html = () => {
         // .pipe(fileinclude())
         .pipe(pug({
             // Сжатие HTML файла
-            pretty: true,
+            pretty: false,
             // Показать в терминале какой файл обработан
             verbose: true
         }))
